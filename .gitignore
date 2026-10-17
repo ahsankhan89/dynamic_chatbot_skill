@@ -1,0 +1,34 @@
+# Secrets - never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+wallet/
+*.sso
+*.p12
+
+# Python
+myenv/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs (may contain real ticket data and questions)
+logs/
+*.log
+*.jsonl
+
+# Data exports / samples
+*.xls
+*.xlsx
+*.csv
+
+# Editor / OS
+.vscode/
+.idea/
+.cursor/
+Thumbs.db
+.DS_Store
